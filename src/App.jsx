@@ -20,7 +20,7 @@ function App() {
     <>
     <div>
       <div>
-        <h2 className="color-blue">Tarefas vindas da API</h2>
+        <h2 className="color-red">Tarefas vindas da API</h2>
         <p>Consumindo dados de JSONPlaceholder via fecth e useEffect</p>
         {carregando ? (
           <div>Carregando...</div>
